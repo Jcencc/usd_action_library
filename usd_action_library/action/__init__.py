@@ -2,7 +2,7 @@
 # Jcen
 
 from .action import *
-
+from behavior_tree.core import BehaviorTree
 
 BehaviorTree.register_node(CreateBox)
 BehaviorTree.register_node(UsdCreateInMemory)

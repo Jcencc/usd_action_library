@@ -2,7 +2,7 @@
 # Jcen
 
 from behavior_tree.core import (
-    Action, Blackboard, Status, Inverter, Condition, Repeater, UntilFail, BehaviorTree
+    Action, Blackboard, Status, Inverter, Condition, Repeater, UntilFail
 )
 import logging
 
