@@ -17,7 +17,7 @@ class CreateBox(Action):
 #
 
 class UsdCreateInMemory(Action):
-    info = """"""
+    info = """创建一个usd stage 到内存中"""
 
     def execute(self, blackboard: Blackboard) -> Status:
         stage = Usd.Stage.CreateInMemory()
@@ -117,7 +117,7 @@ class SetPayloads(Action):
 
 
 class UsdSave(Action):
-    info = """"""
+    info = """将stage保存"""
 
     def execute(self, blackboard: Blackboard) -> Status:
         if not blackboard.get('stage') or not blackboard.get('usdpath'):
