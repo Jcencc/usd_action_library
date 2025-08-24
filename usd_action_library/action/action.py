@@ -6,10 +6,6 @@ from behavior_tree.core import (
 )
 import logging
 
-# try:
-#     from pxr import Usd, Sdf
-# except:
-#     pass
 
 from pxr import Usd, Sdf
 
