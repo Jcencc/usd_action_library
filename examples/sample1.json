@@ -1,0 +1,54 @@
+{
+    "name": "Blackboard",
+    "type": "Blackboard",
+    "class": "",
+    "parm": {},
+    "bt_file": "",
+    "json_file": "",
+    "x": 3762.0,
+    "y": 4530.0,
+    "custom_properties": {},
+    "custom_property_types": {},
+    "children": [
+        {
+            "name": "Selector",
+            "type": "Selector",
+            "class": "",
+            "parm": {},
+            "bt_file": "",
+            "json_file": "",
+            "x": 3763.0,
+            "y": 4676.0,
+            "custom_properties": {},
+            "custom_property_types": {},
+            "children": [
+                {
+                    "name": "Sequence",
+                    "type": "Sequence",
+                    "class": "",
+                    "parm": {},
+                    "bt_file": "",
+                    "json_file": "",
+                    "x": 3689.0,
+                    "y": 4851.0,
+                    "custom_properties": {},
+                    "custom_property_types": {},
+                    "children": [
+                        {
+                            "name": "Action",
+                            "type": "Action",
+                            "class": "UsdSave",
+                            "parm": {},
+                            "bt_file": "",
+                            "json_file": "",
+                            "x": 3547.0,
+                            "y": 5045.0,
+                            "custom_properties": {},
+                            "custom_property_types": {}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

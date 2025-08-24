@@ -1,0 +1,128 @@
+{
+    "name": "Blackboard",
+    "type": "Blackboard",
+    "class": "",
+    "parm": {},
+    "bt_file": "",
+    "json_file": "",
+    "x": 3872.337541194156,
+    "y": 4727.273520913153,
+    "custom_properties": {
+        "usdpath": "C:\\Users\\17203\\Desktop\\github\\usd_action_library\\examples\\sample.usda",
+        "data": {
+            "key": 1
+        }
+    },
+    "custom_property_types": {
+        "usdpath": "string",
+        "data": "dictionary"
+    },
+    "children": [
+        {
+            "name": "Selector",
+            "type": "Selector",
+            "class": "",
+            "parm": {},
+            "bt_file": "",
+            "json_file": "",
+            "x": 3872.3950408882893,
+            "y": 4898.805888387278,
+            "custom_properties": {},
+            "custom_property_types": {},
+            "children": [
+                {
+                    "name": "Sequence",
+                    "type": "Sequence",
+                    "class": "",
+                    "parm": {},
+                    "bt_file": "",
+                    "json_file": "",
+                    "x": 3872.500383679072,
+                    "y": 5074.703591275883,
+                    "custom_properties": {},
+                    "custom_property_types": {},
+                    "children": [
+                        {
+                            "name": "Action",
+                            "type": "Action",
+                            "class": "UsdCreateInMemory",
+                            "parm": {},
+                            "bt_file": "",
+                            "json_file": "",
+                            "x": 3364.855405855808,
+                            "y": 5544.765558046428,
+                            "custom_properties": {},
+                            "custom_property_types": {}
+                        },
+                        {
+                            "name": "Action",
+                            "type": "Action",
+                            "class": "SetMateData",
+                            "parm": {},
+                            "bt_file": "",
+                            "json_file": "",
+                            "x": 3609.6357174286195,
+                            "y": 5571.732141342115,
+                            "custom_properties": {
+                                "set_usd_metadata": "{\"metersPerUnit\": 0.01,\"upAxis\": \"Y\",\"startTimeCode\": 1.0,\"endTimeCode\": 120.0,\"timeCodesPerSecond\": 30.0, \"defaultPrim\":\"pSphere1\"}\n"
+                            },
+                            "custom_property_types": {
+                                "set_usd_metadata": "string"
+                            }
+                        },
+                        {
+                            "name": "Action",
+                            "type": "Action",
+                            "class": "SetUsdPrim",
+                            "parm": {},
+                            "bt_file": "",
+                            "json_file": "",
+                            "x": 3844.0725125978074,
+                            "y": 5561.5250870675345,
+                            "custom_properties": {
+                                "primdepth": 1,
+                                "prim": "pSphere1",
+                                "prim_type": "Mesh"
+                            },
+                            "custom_property_types": {
+                                "primdepth": "integer",
+                                "prim": "string",
+                                "prim_type": "string"
+                            }
+                        },
+                        {
+                            "name": "Action",
+                            "type": "Action",
+                            "class": "SetPayloads",
+                            "parm": {},
+                            "bt_file": "",
+                            "json_file": "",
+                            "x": 4073.1865995919366,
+                            "y": 5542.709269660506,
+                            "custom_properties": {
+                                "prim": "/pSphere1",
+                                "paylodfilepath": "C:\\Users\\17203\\Desktop\\github\\usd_action_library\\examples\\sphere.usda"
+                            },
+                            "custom_property_types": {
+                                "prim": "string",
+                                "paylodfilepath": "string"
+                            }
+                        },
+                        {
+                            "name": "Action",
+                            "type": "Action",
+                            "class": "UsdSave",
+                            "parm": {},
+                            "bt_file": "",
+                            "json_file": "",
+                            "x": 4350.743256157712,
+                            "y": 5539.457350210203,
+                            "custom_properties": {},
+                            "custom_property_types": {}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
