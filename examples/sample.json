@@ -119,6 +119,18 @@
                             "y": 5539.457350210203,
                             "custom_properties": {},
                             "custom_property_types": {}
+                        },
+                        {
+                            "name": "Action",
+                            "type": "Action",
+                            "class": "CreateBox",
+                            "parm": {},
+                            "bt_file": "",
+                            "json_file": "",
+                            "x": 4542.770145751815,
+                            "y": 5553.547258665668,
+                            "custom_properties": {},
+                            "custom_property_types": {}
                         }
                     ]
                 }

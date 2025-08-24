@@ -2,16 +2,16 @@
 # Jcen
 
 from behavior_tree.core import (
-    Action, Blackboard, Status, Inverter, Condition, Repeater, UntilFail
+    Action, Blackboard, Status, Inverter, Condition, Repeater, UntilFail, BehaviorTree
 )
-from behavior_tree.core import Node
 import logging
 
-try:
-    from pxr import Usd, Sdf
-except:
-    pass
+# try:
+#     from pxr import Usd, Sdf
+# except:
+#     pass
 
+from pxr import Usd, Sdf
 
 # test Action
 class CreateBox(Action):
@@ -131,7 +131,4 @@ class UsdSave(Action):
         stage.Export(blackboard.get('usdpath'))
         return Status.SUCCESS
 
-
-if __name__ == '__main__':
-    print(dir(Usd.Stage))
 
