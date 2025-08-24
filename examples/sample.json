@@ -77,11 +77,11 @@
                             "parm": {},
                             "bt_file": "",
                             "json_file": "",
-                            "x": 3844.0725125978074,
-                            "y": 5561.5250870675345,
+                            "x": 3842.9041395835707,
+                            "y": 5563.861833096009,
                             "custom_properties": {
                                 "primdepth": 1,
-                                "prim": "pSphere1",
+                                "prim": "/pSphere1",
                                 "prim_type": "Mesh"
                             },
                             "custom_property_types": {
@@ -115,7 +115,7 @@
                             "parm": {},
                             "bt_file": "",
                             "json_file": "",
-                            "x": 4350.743256157712,
+                            "x": 4347.238137115,
                             "y": 5539.457350210203,
                             "custom_properties": {},
                             "custom_property_types": {}

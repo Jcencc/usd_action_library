@@ -84,9 +84,9 @@ class SetUsdPrim(Action):
         for i in range(blackboard.get('primdepth', 1)):
             if not prims:
                 prims.append(prim)
-                stage.DefinePrim("/" + prim, prim_type)
+                stage.DefinePrim(prim, prim_type)
             else:
-                parent_prim_path = '/' + '/'.join(prims[:-1])
+                parent_prim_path = ''.join(prims[:-1])
                 stage.DefinePrim(parent_prim_path, prim_type)
                 prims.append(prim)
         return Status.SUCCESS
